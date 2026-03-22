@@ -1,0 +1,40 @@
+ADD_SPOUSE Bill Fleur Female
+ADD_SPOUSE Charlie Helen Female
+ADD_SPOUSE Percy Audrey Female
+ADD_SPOUSE Ronald Hermione Female
+ADD_SPOUSE Ginny Harry Male
+
+ADD_CHILD Fleur Victoire Female
+ADD_CHILD Fleur Dominique Male
+
+ADD_CHILD Helen Molly Female
+
+ADD_CHILD Audrey Lucy Female
+
+ADD_CHILD Hermione Rose Female
+ADD_CHILD Hermione Hugo Male
+
+ADD_CHILD Ginny James Male
+ADD_CHILD Ginny Albus Male
+ADD_CHILD Ginny Lily Female
+
+
+ADD_SPOUSE Dominique Alice Female
+ADD_CHILD Alice Kevin Male
+
+
+GET_RELATIONSHIP Victoire Paternal-Uncle
+GET_RELATIONSHIP Victoire Maternal-Aunt
+GET_RELATIONSHIP Dominique Paternal-Aunt
+GET_RELATIONSHIP Rose Maternal-Uncle
+GET_RELATIONSHIP Hugo Paternal-Aunt
+GET_RELATIONSHIP Lily Siblings
+GET_RELATIONSHIP Molly Maternal-Aunt
+GET_RELATIONSHIP Lucy Paternal-Uncle
+GET_RELATIONSHIP Kevin Paternal-Uncle
+
+
+GET_RELATIONSHIP Unknown Siblings
+GET_RELATIONSHIP Bill Maternal-Aunt
+ADD_CHILD Bill TestChild Male
+ADD_SPOUSE Bill AnotherSpouse Female
